@@ -1,4 +1,4 @@
-Zomato Food Delivery Management Tool
+# Zomato Food Delivery Management Tool
     This is a Streamlit-based web application designed to manage a Zomato-like food delivery database. It offers a range of functionalities to manage and visualize data, including dynamic CRUD operations, database schema management, and insightful data visualizations. The project is structured in a modular way to facilitate database interaction, insights extraction, and user-friendly management of food delivery operations.
 
 Features
