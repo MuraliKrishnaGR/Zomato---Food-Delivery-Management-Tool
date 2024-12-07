@@ -26,27 +26,27 @@ Features
 📦 Project Structure
 
 ZOMATO_PROJECT/
-├── database_scripts/
-│   ├── create_database.py         # Script for creating the SQLite database
-│   ├── populate_database.py       # Script for populating the database with initial data
-│   ├── zomata_database.db         # SQLite database file
-├── env/                           # Virtual environment (optional, not usually included in repositories)
-├── insights_visualization/
-│   ├── __init__.py                # Module initializer
-│   ├── data_insights.py           # Logic for generating insights and visualizations
-│   ├── queries.py                 # SQL queries for generating insights
-├── oop_database/
-│   ├── __init__.py                # Module initializer
-│   ├── database_manager.py        # Manages all database-related operations (CRUD, schema management)
-├── streamlit_app/
-│   ├── __init__.py                # Module initializer
-│   ├── zomato_app.py              # Streamlit app entry point
-├── synthetic_datasets/
-│   ├── customers.csv              # Sample synthetic dataset for customers
-│   ├── deliveries.csv             # Sample synthetic dataset for deliveries
-│   ├── orders.csv                 # Sample synthetic dataset for orders
-│   ├── restaurants.csv            # Sample synthetic dataset for restaurants
-├── generate_datasets.py           # Script to generate synthetic datasets for testing
+database_scripts/
+ create_database.py         # Script for creating the SQLite database
+populate_database.py       # Script for populating the database with initial data
+ zomata_database.db         # SQLite database file
+env/                           # Virtual environment (optional, not usually included in repositories)
+insights_visualization/
+__init__.py                # Module initializer
+data_insights.py           # Logic for generating insights and visualizations
+queries.py                 # SQL queries for generating insights
+oop_database/
+ __init__.py                # Module initializer
+database_manager.py        # Manages all database-related operations (CRUD, schema management)
+streamlit_app/
+ __init__.py                # Module initializer
+zomato_app.py              # Streamlit app entry point
+synthetic_datasets/
+ customers.csv              # Sample synthetic dataset for customers
+deliveries.csv             # Sample synthetic dataset for deliveries
+ orders.csv                 # Sample synthetic dataset for orders
+ restaurants.csv            # Sample synthetic dataset for restaurants
+├generate_datasets.py           # Script to generate synthetic datasets for testing
 
 Key Folders and Files
 
