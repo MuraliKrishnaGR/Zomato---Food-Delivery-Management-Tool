@@ -1,5 +1,5 @@
 # Zomato Food Delivery Management Tool
-    This is a Streamlit-based web application designed to manage a Zomato-like food delivery database. It offers a range of functionalities to manage and visualize data, including dynamic CRUD operations, database schema management, and insightful data visualizations. The project is structured in a modular way to facilitate database interaction, insights extraction, and user-friendly management of food delivery operations.
+This is a Streamlit-based web application designed to manage a Zomato-like food delivery database. It offers a range of functionalities to manage and visualize data, including dynamic CRUD operations, database schema management, and insightful data visualizations. The project is structured in a modular way to facilitate database interaction, insights extraction, and user-friendly management of food delivery operations.
 
 Features
 1. CRUD Operations
@@ -51,26 +51,21 @@ ZOMATO_PROJECT/
 Key Folders and Files
 
 database_scripts/:
-
     create_database.py: Creates an SQLite database (zomata_database.db) and defines initial table schemas.
     populate_database.py: Populates the database with synthetic data to simulate a real-world food delivery environment.
     zomata_database.db: SQLite database file containing all the data, used by the Streamlit app.
 
 insights_visualization/:
-
     data_insights.py: Contains methods for generating data insights and visualizations, such as orders by day, top customers, or peak ordering times.
     queries.py: Defines reusable SQL queries that fetch data for insights.
 
 oop_database/:
-
     database_manager.py: Contains functions for interacting with the database, such as fetching data, executing SQL queries, and managing the database schema.
 
 streamlit_app/:
-
     zomato_app.py: The main file that launches the Streamlit app and provides the user interface for managing the database and viewing insights.
 
 synthetic_datasets/:
-
     Contains CSV files with synthetic data that mimics real-world customer, order, deliveries and restaurant data.
 
 generate_datasets.py: 
@@ -79,7 +74,6 @@ generate_datasets.py:
 🔧 Setup Instructions
 Prerequisites
 Before setting up the project, ensure that you have:
-
     Python 3.x (preferably Python 3.8 or newer)
     Streamlit installed for running the web app
     SQLite (SQLite3 is integrated into Python, so it does not require separate installation)
@@ -88,14 +82,16 @@ Before setting up the project, ensure that you have:
 
 First, clone the repository to your local machine:
 
-git clone https://github.com/yourusername/zomato_project.git
-cd zomato_project
+    git clone https://github.com/yourusername/zomato_project.git
+    cd zomato_project
+    
 Create a Virtual Environment (Optional):
 
 It is recommended to use a virtual environment to manage dependencies. Create one with the following command:
 
     python -m venv env
-    Activate the Virtual Environment:
+    
+Activate the Virtual Environment:
 
 On Windows:
 
@@ -107,16 +103,15 @@ On macOS/Linux:
 
 
 Run the App:
-
     To launch the Streamlit app, use the following command:
 
-streamlit run streamlit_app/zomato_app.py
-    This will start the web app on your local machine, which can be accessed at http://localhost:8501.
+    streamlit run streamlit_app/zomato_app.py
+
+This will start the web app on your local machine, which can be accessed at http://localhost:8501.
 
 🛠️ Database Setup
     Creating and Populating the Database
     The SQLite database is created automatically by the script create_database.py. Here's how to initialize it:
-
     Run the script create_database.py to create the initial database structure (tables and schema).
     Run the script populate_database.py to populate the database with synthetic data. This will allow you to start interacting with the app right away.
     Both scripts interact with an SQLite database (zomata_database.db) located inside the database_scripts/ directory.
@@ -146,9 +141,6 @@ streamlit run streamlit_app/zomato_app.py
     Choose from predefined insights such as "Top Customers" or "Most Ordered Items".
     Real-time visualizations using Plotly or Matplotlib.
 
-📄 License
-This project is licensed under the MIT License.
-
 
 🚀 Future Improvements
 1. User Authentication:
@@ -164,7 +156,6 @@ generate_datasets.py Script
     The generate_datasets.py script is used to generate synthetic data for testing and populating the database. It simulates real-world customer, order, and restaurant data and saves them as CSV files. This is particularly useful for developers who want to populate their database with random but realistic data.
 
 The script generates sample data for:
-
     Customers (names, email addresses, phone numbers, etc.)
     Orders (order IDs, customer IDs, restaurant IDs, etc.)
     Restaurants (restaurant names, cuisines, etc.)
