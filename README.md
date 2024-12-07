@@ -146,8 +146,6 @@ streamlit run streamlit_app/zomato_app.py
     Choose from predefined insights such as "Top Customers" or "Most Ordered Items".
     Real-time visualizations using Plotly or Matplotlib.
 
-📄 License
-This project is licensed under the MIT License.
 
 
 🚀 Future Improvements
