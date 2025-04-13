@@ -161,3 +161,5 @@ The script generates sample data for:
     Restaurants (restaurant names, cuisines, etc.)
     Deliveries (Delivery_id ,order_id, etc.)
     The generated data is saved in the synthetic_datasets/ folder, where you can use the CSV files to populate the database or for other testing purposes.
+
+    © 2024-2025 MuraliKrishnaGR. All rights reserved.
